@@ -125,13 +125,11 @@ body {
 .contacts-icon {
   fill: var(--main-color);
   width: 16px;
-  height: 12px;
   margin-right: 10px;
 }
 .smartphone-icon {
   fill: var(--main-color);
-  width: 10px;
-  height: 16px;
+  width: 16px;
   margin-right: 10px;
 }
 .contacts-link:hover .contacts-icon,
@@ -323,6 +321,7 @@ img {
   border-radius: 50%;
   justify-content: center;
   align-items: center;
+  background-color: #ffffff;
 }
 
 .social-icon {
@@ -331,14 +330,13 @@ img {
   fill: #afb1b8;
 }
 
-.social-icon:hover,
-.social-icon:focus {
+.social-link:hover .social-icon,
+.social-link:focus .social-icon {
   fill: #ffffff;
 }
 .social-link:hover,
 .social-link:focus {
   background-color: #2196f3;
-  fill: #ffffff;
 }
 .clients-list {
   display: flex;
@@ -362,12 +360,10 @@ img {
 }
 
 .clients-icon {
-  width: 106px;
-  height: 60px;
   fill: #afb1b8;
 }
-.clients-icon:hover,
-.clients-icon:focus {
+.client-links:hover .clients-icon,
+.client-links:focus .clients-icon {
   fill: #2196f3;
 }
 .client-links:focus,
